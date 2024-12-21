@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app
+      - ./env/service-account-file.json:/app/env/service-account-file.json
+    command: streamlit run src/main.py
+    ports:
+      - "8000:8501"
