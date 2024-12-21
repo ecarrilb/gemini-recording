@@ -1,1 +1,1 @@
-# gemini-recording
+# gen ai vertex @edarcato
